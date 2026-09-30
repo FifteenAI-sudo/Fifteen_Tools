@@ -20,7 +20,7 @@ const KEY = process.env.OPENROUTER_API_KEY;
 
 const MODELS = {
   chatgpt: "openai/gpt-4o-mini",
-  claude: "anthropic/claude-3.5-haiku",
+  claude: "qwen/qwen3.8-27b:free",
   gemini: "google/gemini-flash-1.5",
   grok: "x-ai/grok-beta",
   deepseek: "deepseek/deepseek-chat",
